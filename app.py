@@ -44,7 +44,7 @@ else:
         with st.spinner("Trợ lý đang suy nghĩ..."):
             try:
                 response = client.models.generate_content(
-                    model="gemini-1.5-flash",
+                    model="gemini-3.8-flash",
                     contents=content_to_send,
                 )
                 # Hiển thị câu trả lời của AI
